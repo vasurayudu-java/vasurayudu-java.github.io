@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vasu Rayudu | Senior Full Stack Java Developer</title>
+<meta name="description" content="Vasu Rayudu, Senior Full Stack Java Developer with 5+ years in Spring Boot microservices, Kafka, AWS and data migration for banking and manufacturing.">
+<style>
+  :root{--navy:#1F3864;--navy-2:#2E5090;--ink:#1b1f24;--muted:#5b6573;--line:#e3e7ee;--bg:#f7f9fc;--card:#fff;--accent:#e8eefb}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:"Segoe UI",system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+  a{color:var(--navy-2);text-decoration:none} a:hover{text-decoration:underline}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+  nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.95);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+  nav .brand{font-weight:700;color:var(--navy);letter-spacing:.5px}
+  nav ul{display:flex;gap:22px;list-style:none;font-size:.93rem}
+  nav ul a{color:var(--ink)}
+  @media(max-width:760px){nav ul{display:none}}
+  header.hero{background:linear-gradient(135deg,var(--navy) 0%,var(--navy-2) 100%);color:#fff;padding:80px 0 72px}
+  .hero .wrap{display:flex;align-items:center;gap:44px;flex-wrap:wrap}
+  .avatar{width:170px;height:170px;border-radius:50%;border:4px solid rgba(255,255,255,.85);object-fit:cover;background:#fff;flex-shrink:0}
+  .avatar-fallback{width:170px;height:170px;border-radius:50%;border:4px solid rgba(255,255,255,.85);display:none;align-items:center;justify-content:center;font-size:3.4rem;font-weight:700;background:rgba(255,255,255,.15);flex-shrink:0}
+  .hero h1{font-size:2.6rem;letter-spacing:1px;line-height:1.15}
+  .hero .role{font-size:1.25rem;opacity:.95;margin-top:6px}
+  .hero .tag{margin-top:14px;max-width:560px;opacity:.9}
+  .chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+  .chips span{font-size:.8rem;padding:4px 10px;border-radius:999px;background:rgba(255,255,255,.16)}
+  .btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+  .btn{display:inline-block;padding:11px 20px;border-radius:8px;font-weight:600;font-size:.95rem;border:2px solid #fff;color:#fff}
+  .btn.primary{background:#fff;color:var(--navy)}
+  .btn:hover{text-decoration:none;opacity:.9}
+  section{padding:64px 0;border-bottom:1px solid var(--line)}
+  section:nth-of-type(even){background:#fff}
+  h2{font-size:1.55rem;color:var(--navy);letter-spacing:.5px;margin-bottom:6px}
+  h2+.rule{width:56px;height:4px;background:var(--navy-2);border-radius:2px;margin-bottom:28px}
+  .about p{margin-bottom:14px;max-width:820px;color:#2b323b}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:16px;margin-top:22px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+  .stat b{display:block;font-size:1.6rem;color:var(--navy)} .stat span{color:var(--muted);font-size:.9rem}
+  .skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:18px}
+  .skill{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px}
+  .skill h3{font-size:1rem;color:var(--navy);margin-bottom:10px}
+  .tags{display:flex;flex-wrap:wrap;gap:6px}
+  .tags span{font-size:.82rem;background:var(--accent);color:var(--navy);padding:3px 10px;border-radius:6px}
+  .job{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--navy-2);border-radius:10px;padding:22px 24px;margin-bottom:18px}
+  .job-head{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px}
+  .job h3{font-size:1.1rem} .job .co{color:var(--navy-2);font-weight:600}
+  .job .dates{color:var(--muted);font-weight:600;font-size:.92rem}
+  .job ul{margin:12px 0 12px 20px} .job li{margin-bottom:6px;color:#2b323b}
+  .projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+  .proj{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px;display:flex;flex-direction:column}
+  .proj h3{color:var(--navy);font-size:1.08rem} .proj .tl{color:var(--muted);font-size:.9rem;margin-bottom:12px}
+  .proj dl{font-size:.92rem;margin-bottom:14px} .proj dt{font-weight:700;margin-top:8px} .proj dd{color:#2b323b}
+  .proj .links{margin-top:auto;padding-top:12px}
+  .note{font-size:.9rem;color:var(--muted);margin:-14px 0 22px}
+  .contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+  .contact-grid div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+  .contact-grid b{display:block;color:var(--navy);margin-bottom:4px}
+  .center{text-align:center}
+  footer{padding:28px 0;text-align:center;color:var(--muted);font-size:.88rem}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+  <span class="brand">VASU RAYUDU</span>
+  <ul>
+    <li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li><li><a href="#resume">Resume</a></li><li><a href="#contact">Contact</a></li>
+  </ul>
+</div></nav>
+
+<header class="hero"><div class="wrap">
+  <img class="avatar" src="photo.jpg" alt="Vasu Rayudu" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+  <div class="avatar-fallback" aria-hidden="true">VR</div>
+  <div>
+    <h1>Vasu Rayudu</h1>
+    <div class="role">Senior Full Stack Java Developer · 5+ Years</div>
+    <p class="tag">I build secure, cloud-native Spring Boot microservices and event-driven systems for banking and manufacturing, and I modernize legacy applications without losing a single record.</p>
+    <div class="chips"><span>Java 17/21</span><span>Spring Boot</span><span>Kafka</span><span>AWS</span><span>React</span><span>OpenShift</span></div>
+    <div class="btns">
+      <a class="btn primary" href="https://github.com/vasurayudu-java/Resume/raw/main/Vasu_Rayudu_Sr_Java_Developer.pdf">Download Resume</a>
+      <a class="btn" href="https://github.com/vasurayudu-java">View GitHub</a>
+      <a class="btn" href="https://www.linkedin.com/in/vasu-lenka/">LinkedIn</a>
+    </div>
+  </div>
+</div></header>
+
+<section id="about"><div class="wrap about">
+  <h2>About Me</h2><div class="rule"></div>
+  <p>I'm a Java Full Stack Developer with more than five years of experience building and supporting enterprise applications in <b>retail banking</b>, <b>automotive manufacturing</b> and <b>enterprise IT services</b>. Most of my work is on the back end: Spring Boot microservices, REST APIs, Kafka event streams and AWS services. I also build React and Angular screens for the teams who use those systems.</p>
+  <p>A large part of my career has been <b>modernization</b>. I've moved legacy Java/J2EE and batch applications onto Spring Boot microservices running on OpenShift, and migrated high-volume customer, transaction and supply-chain data to AWS with DMS, Glue and Spring Batch. Those migrations included validation, retry and reconciliation, so the data arrives complete and correct.</p>
+  <p>I care about software that is <b>secure and well tested</b>: least-privilege IAM, protected PII, automated CI/CD pipelines, JUnit/Mockito test suites and clear code reviews. I enjoy hard integration problems where many systems have to agree on the same data.</p>
+  <div class="stats">
+    <div class="stat"><b>5+</b><span>Years of experience</span></div>
+    <div class="stat"><b>3</b><span>Industries: banking, automotive, IT services</span></div>
+    <div class="stat"><b>Java 8 → 21</b><span>Across every major LTS</span></div>
+    <div class="stat"><b>AWS + OpenShift</b><span>Cloud-native delivery</span></div>
+  </div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+  <h2>Skills</h2><div class="rule"></div>
+  <div class="skills">
+    <div class="skill"><h3>Programming Languages</h3><div class="tags"><span>Java 17/21</span><span>Java 11</span><span>Java 8</span><span>JavaScript</span><span>TypeScript</span><span>SQL / PL/SQL</span></div></div>
+    <div class="skill"><h3>Frameworks &amp; Libraries</h3><div class="tags"><span>Spring Boot</span><span>Spring MVC</span><span>Spring Security</span><span>Spring Data JPA</span><span>Spring Batch</span><span>Spring AOP</span><span>Hibernate</span><span>JAX-RS</span><span>React</span><span>Redux</span><span>Angular</span></div></div>
+    <div class="skill"><h3>Cloud &amp; Infrastructure</h3><div class="tags"><span>AWS Lambda</span><span>SQS</span><span>S3</span><span>EC2</span><span>ECS</span><span>API Gateway</span><span>IAM</span><span>Cognito</span><span>DMS</span><span>Glue</span><span>VPC</span><span>Docker</span><span>Kubernetes</span><span>OpenShift</span></div></div>
+    <div class="skill"><h3>Messaging &amp; Integration</h3><div class="tags"><span>Apache Kafka</span><span>Consumer Groups</span><span>Dead-Letter Queues</span><span>JMS</span><span>RabbitMQ</span><span>REST</span><span>SOAP</span><span>JSON / XML</span></div></div>
+    <div class="skill"><h3>Databases &amp; Data Stores</h3><div class="tags"><span>Oracle</span><span>PostgreSQL</span><span>MySQL</span><span>SQL Server</span><span>DB2</span><span>Aurora</span><span>DynamoDB</span><span>MongoDB</span></div></div>
+    <div class="skill"><h3>DevOps, CI/CD &amp; Observability</h3><div class="tags"><span>GitHub Actions</span><span>Jenkins</span><span>Maven</span><span>Gradle</span><span>SonarQube</span><span>Fortify</span><span>Splunk</span><span>CloudWatch</span></div></div>
+    <div class="skill"><h3>Testing</h3><div class="tags"><span>JUnit</span><span>Mockito</span><span>Selenium WebDriver</span><span>TestNG</span><span>Jasmine</span><span>Karma</span></div></div>
+    <div class="skill"><h3>Tools &amp; Practices</h3><div class="tags"><span>Git</span><span>Bitbucket</span><span>JIRA</span><span>IntelliJ IDEA</span><span>VS Code</span><span>Linux/Unix</span><span>Agile/Scrum</span><span>TDD</span></div></div>
+  </div>
+</div></section>
+
+<section id="experience"><div class="wrap">
+  <h2>Experience</h2><div class="rule"></div>
+  <div class="job">
+    <div class="job-head"><h3>Senior Java Developer · <span class="co">Truist</span>, Charlotte, NC</h3><span class="dates">Mar 2025 – Present</span></div>
+    <ul>
+      <li>Develop Java 17/21 Spring Boot microservices for a retail banking platform covering customer onboarding, account servicing and third-party vendor integrations.</li>
+      <li>Migrate legacy customer-account applications to Spring Boot microservices on OpenShift, making them easier to maintain and ready for the cloud.</li>
+      <li>Build data migration pipelines with AWS DMS, Glue, Oracle, Aurora and DynamoDB, with validation and reconciliation checks on account and transaction records.</li>
+      <li>Implement serverless integrations with AWS Lambda and SQS for vendor, payment and partner data feeds.</li>
+      <li>Publish account and transaction events through Kafka producers and consumers with retry handling and dead-letter queues.</li>
+      <li>Secure regulated PII data with IAM least-privilege roles and SSM Parameter Store, and maintain GitHub Actions pipelines for build, test, scan and deploy.</li>
+    </ul>
+    <div class="tags"><span>Java 21</span><span>Spring Boot</span><span>Kafka</span><span>AWS DMS</span><span>Glue</span><span>Lambda</span><span>SQS</span><span>DynamoDB</span><span>Aurora</span><span>OpenShift</span><span>React</span><span>GitHub Actions</span></div>
+  </div>
+  <div class="job">
+    <div class="job-head"><h3>Senior Java Developer · <span class="co">Bosch</span>, India</h3><span class="dates">Feb 2022 – Nov 2023</span></div>
+    <ul>
+      <li>Developed Java 11, Spring Boot and Spring Batch applications to migrate automotive parts, supplier, inventory and production-order data from Oracle to AWS.</li>
+      <li>Built high-volume Spring Batch jobs (ItemReader, ItemProcessor, ItemWriter) with validation, transformation and restartable retry logic, so migrations completed without data loss.</li>
+      <li>Developed React screens that let manufacturing and supply-chain teams start, monitor and review migration runs.</li>
+      <li>Containerized services with Docker, deployed them on Kubernetes and OpenShift, and automated releases with Jenkins.</li>
+      <li>Supported mainframe JCL batch scheduling and used Splunk to troubleshoot plant-data load windows.</li>
+    </ul>
+    <div class="tags"><span>Java 11</span><span>Spring Batch</span><span>Oracle</span><span>AWS</span><span>React</span><span>Docker</span><span>Kubernetes</span><span>Jenkins</span><span>Splunk</span></div>
+  </div>
+  <div class="job">
+    <div class="job-head"><h3>Java Developer · <span class="co">HCL Technologies</span>, India</h3><span class="dates">Aug 2020 – Jan 2022</span></div>
+    <ul>
+      <li>Built Spring Boot, Spring MVC and Spring AOP microservices with JPA for client enterprise and mobile applications on AWS.</li>
+      <li>Delivered REST and SOAP web services (JSON/XML) for web, mobile and enterprise system integration.</li>
+      <li>Wrote Kafka producers and consumers for real-time messaging, plus AWS Lambda functions integrated with DynamoDB, RDS and CloudWatch.</li>
+      <li>Set up Jenkins and Bitbucket CI/CD pipelines, and handled defect fixes and production support in Agile sprints.</li>
+    </ul>
+    <div class="tags"><span>Java 8</span><span>Spring Boot</span><span>Kafka</span><span>AWS Lambda</span><span>DynamoDB</span><span>REST</span><span>SOAP</span><span>Jenkins</span></div>
+  </div>
+</div></section>
+
+<section id="projects"><div class="wrap">
+  <h2>Projects</h2><div class="rule"></div>
+  <p class="note">Personal open-source projects that show the patterns I use in my professional work.</p>
+  <div class="projects">
+    <div class="proj">
+      <h3>Account Events Service</h3><div class="tl">Event-driven banking microservice</div>
+      <dl><dt>Problem</dt><dd>Other banking systems (fraud, notifications, reporting) need to know immediately when an account or transaction changes, without losing events.</dd>
+      <dt>Solution</dt><dd>A Spring Boot REST service that stores accounts in PostgreSQL and publishes events to Kafka. Consumers retry with backoff, and messages that keep failing go to a dead-letter topic.</dd>
+      <dt>Stack</dt><dd>Java 21 · Spring Boot 3 · Spring Data JPA · Kafka · PostgreSQL · Docker Compose · JUnit/Mockito</dd></dl>
+      <div class="links"><a href="https://github.com/vasurayudu-java/account-events-service">View on GitHub →</a></div>
+    </div>
+    <div class="proj">
+      <h3>Batch Data Migration</h3><div class="tl">Restartable legacy-to-cloud migration</div>
+      <dl><dt>Problem</dt><dd>Millions of legacy records have to move to a new database. Bad rows must be caught, and a failed run must resume instead of starting over.</dd>
+      <dt>Solution</dt><dd>A Spring Batch chunk job that reads, validates, transforms and writes records, with skip and retry policies, restart from the last commit and a reconciliation report.</dd>
+      <dt>Stack</dt><dd>Java 21 · Spring Batch 5 · PostgreSQL · Docker · JUnit</dd></dl>
+      <div class="links"><a href="https://github.com/vasurayudu-java/batch-data-migration">View on GitHub →</a></div>
+    </div>
+    <div class="proj">
+      <h3>Vendor Feed Processor</h3><div class="tl">Serverless AWS data pipeline</div>
+      <dl><dt>Problem</dt><dd>Partner payment files arrive at random times and in bursts, and every record must be processed exactly once.</dd>
+      <dt>Solution</dt><dd>An S3 upload triggers a Lambda that splits the file into SQS messages. A second Lambda validates each record and writes it idempotently to DynamoDB, with a DLQ for failures.</dd>
+      <dt>Stack</dt><dd>Java 21 · AWS Lambda · S3 · SQS · DynamoDB · AWS SAM · least-privilege IAM</dd></dl>
+      <div class="links"><a href="https://github.com/vasurayudu-java/vendor-feed-processor">View on GitHub →</a></div>
+    </div>
+    <div class="proj">
+      <h3>Banking Ops Dashboard</h3><div class="tl">Full-stack React + secured Spring Boot API</div>
+      <dl><dt>Problem</dt><dd>Operations staff need a fast, secure screen to search accounts and review recent transactions.</dd>
+      <dt>Solution</dt><dd>A React (Vite) front end calling a Spring Boot API protected by Spring Security with JWT login and role-based access.</dd>
+      <dt>Stack</dt><dd>React · Vite · Spring Boot 3 · Spring Security · JWT · H2/PostgreSQL</dd></dl>
+      <div class="links"><a href="https://github.com/vasurayudu-java/banking-ops-dashboard">View on GitHub →</a></div>
+    </div>
+  </div>
+</div></section>
+
+<section id="resume"><div class="wrap center">
+  <h2>Resume</h2><div class="rule" style="margin:0 auto 24px"></div>
+  <p style="margin-bottom:20px;color:var(--muted)">A summary of my experience, skills and education.</p>
+  <a class="btn primary" style="border-color:var(--navy);background:var(--navy);color:#fff" href="https://github.com/vasurayudu-java/Resume/raw/main/Vasu_Rayudu_Sr_Java_Developer.pdf">Download Resume (PDF)</a>
+</div></section>
+
+<section id="contact"><div class="wrap">
+  <h2>Contact</h2><div class="rule"></div>
+  <div class="contact-grid">
+    <div><b>Email</b><a href="mailto:vasurayudu0@gmail.com">vasurayudu0@gmail.com</a></div>
+    <div><b>LinkedIn</b><a href="https://www.linkedin.com/in/vasu-lenka/">linkedin.com/in/vasu-lenka</a></div>
+    <div><b>GitHub</b><a href="https://github.com/vasurayudu-java">github.com/vasurayudu-java</a></div>
+    <div><b>Location</b>United States</div>
+    <div><b>Availability</b>Open to full-time, contract and remote roles</div>
+  </div>
+</div></section>
+
+<footer>© 2026 Vasu Rayudu · Built with HTML &amp; CSS · Hosted on GitHub Pages</footer>
+</body>
+</html>
