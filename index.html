@@ -164,25 +164,11 @@
       <div class="links"><a href="https://github.com/vasurayudu-java/account-events-service">View on GitHub →</a></div>
     </div>
     <div class="proj">
-      <h3>Batch Data Migration</h3><div class="tl">Restartable legacy-to-cloud migration</div>
-      <dl><dt>Problem</dt><dd>Millions of legacy records have to move to a new database. Bad rows must be caught, and a failed run must resume instead of starting over.</dd>
-      <dt>Solution</dt><dd>A Spring Batch chunk job that reads, validates, transforms and writes records, with skip and retry policies, restart from the last commit and a reconciliation report.</dd>
-      <dt>Stack</dt><dd>Java 21 · Spring Batch 5 · PostgreSQL · Docker · JUnit</dd></dl>
-      <div class="links"><a href="https://github.com/vasurayudu-java/batch-data-migration">View on GitHub →</a></div>
-    </div>
-    <div class="proj">
       <h3>Vendor Feed Processor</h3><div class="tl">Serverless AWS data pipeline</div>
       <dl><dt>Problem</dt><dd>Partner payment files arrive at random times and in bursts, and every record must be processed exactly once.</dd>
       <dt>Solution</dt><dd>An S3 upload triggers a Lambda that splits the file into SQS messages. A second Lambda validates each record and writes it idempotently to DynamoDB, with a DLQ for failures.</dd>
       <dt>Stack</dt><dd>Java 21 · AWS Lambda · S3 · SQS · DynamoDB · AWS SAM · least-privilege IAM</dd></dl>
       <div class="links"><a href="https://github.com/vasurayudu-java/vendor-feed-processor">View on GitHub →</a></div>
-    </div>
-    <div class="proj">
-      <h3>Banking Ops Dashboard</h3><div class="tl">Full-stack React + secured Spring Boot API</div>
-      <dl><dt>Problem</dt><dd>Operations staff need a fast, secure screen to search accounts and review recent transactions.</dd>
-      <dt>Solution</dt><dd>A React (Vite) front end calling a Spring Boot API protected by Spring Security with JWT login and role-based access.</dd>
-      <dt>Stack</dt><dd>React · Vite · Spring Boot 3 · Spring Security · JWT · H2/PostgreSQL</dd></dl>
-      <div class="links"><a href="https://github.com/vasurayudu-java/banking-ops-dashboard">View on GitHub →</a></div>
     </div>
   </div>
 </div></section>
